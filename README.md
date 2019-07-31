@@ -18,8 +18,10 @@ demo : [demo](http://ng2-signalr-webui.azurewebsites.net) (can take longer to lo
 ng cli example: [ng cli example](https://github.com/HNeukermans/ng2-signalr.demo.webui.ngcli) <br>
 ## Installation
 ```
-npm install ng2-signalr signalr-no-jquery
+git clone https://github.com/lf-novelt/ng2-signalr
+cd ng2-signalr/projects/ng2-signalr
 ```
+Then manually copy src folder (not /dist) inside your own angular solution folder sources (yeah I know it's not NPM style but "Error: No provider for NgZone" makes linking to angular module hard) so it will be part of YOUR build process
 
 > v5 is first version developed against angular v5. 
 > angular v4 users should use v2.2.1.
@@ -27,8 +29,7 @@ npm install ng2-signalr signalr-no-jquery
 ## Setup
 inside app.module.ts
 ```ts
-import { SignalRModule } from 'ng2-signalr';
-import { SignalRConfiguration } from 'ng2-signalr';
+import { SignalRModule, SignalRConfiguration } from './modules/ng2-signalr';
 
 // >= v2.0.0
 export function createConfig(): SignalRConfiguration {
