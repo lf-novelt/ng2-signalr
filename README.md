@@ -18,7 +18,7 @@ demo : [demo](http://ng2-signalr-webui.azurewebsites.net) (can take longer to lo
 ng cli example: [ng cli example](https://github.com/HNeukermans/ng2-signalr.demo.webui.ngcli) <br>
 ## Installation
 ```
-npm install ng2-signalr jquery signalr --save
+npm install ng2-signalr signalr-no-jquery
 ```
 
 > v5 is first version developed against angular v5. 
@@ -66,6 +66,7 @@ config.url = 'http://ng2-signalr-backend.azurewebsites.net/';
 ```
 
 ## setup ngcli
+NO NEED ANYMORE
 inside angular-cli.json
 ```ts
 "scripts": [
@@ -307,11 +308,11 @@ configuration: <br>
 
 ## Detailed webpack install
 ```
-npm install jquery signalr expose-loader --save
+npm install signalr-no-jquery expose-loader --save
 
 //inside vendor.ts
 import 'expose-loader?jQuery!jquery';
-import '../node_modules/signalr/jquery.signalR.js';
+import '../node_modules/signalr-no-jquery/build/signalR.js';
 ```
 
 ### Detailed systemjs install (starting from v2.0.0)
