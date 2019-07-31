@@ -2056,10 +2056,6 @@ function ($, window, undefined$1) {
         reconnectTimeout: "Couldn't reconnect within the configured timeout of {0} ms, disconnecting.",
         reconnectWindowTimeout: "The client has been inactive since {0} and it has exceeded the inactivity timeout of {1} ms. Stopping the connection."
     };
-    if (typeof ($) !== "function") {
-        // no jQuery!
-        throw new Error(resources.nojQuery);
-    }
     /** @type {?} */
     var signalR;
     /** @type {?} */
