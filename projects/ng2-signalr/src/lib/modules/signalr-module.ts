@@ -1,7 +1,7 @@
 import { NgModule, ModuleWithProviders, NgZone, InjectionToken } from '@angular/core';
 import { SignalR } from '../services/signalr';
 import { SignalRConfiguration } from '../services/signalr.configuration';
-import { hubConnection } from 'signalr-no-jquery';
+import { hubConnection } from '../signalr-no-jquery/signalR';
 
 const SIGNALR_CONFIGURATION = new InjectionToken<SignalRConfiguration>('SIGNALR_CONFIGURATION');
 

@@ -1,0 +1,7 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+import jqueryDeferred from './lib/jquery-deferred';
+export default jqueryDeferred;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290Ijoibmc6Ly9uZzItc2lnbmFsci8iLCJzb3VyY2VzIjpbImxpYi9zaWduYWxyLW5vLWpxdWVyeS9qcXVlcnktZGVmZXJyZWQvaW5kZXgudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7OztBQUFBLE9BQU8sY0FBYyxNQUFNLHVCQUF1QixDQUFDO0FBQ25ELGVBQWUsY0FBYyxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGpxdWVyeURlZmVycmVkIGZyb20gJy4vbGliL2pxdWVyeS1kZWZlcnJlZCc7XG5leHBvcnQgZGVmYXVsdCBqcXVlcnlEZWZlcnJlZDsiXX0=
